@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LayerTableCell" rowHeight="60" id="YWc-Ga-VTv" customClass="LayerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YWc-Ga-VTv" id="Fqb-zJ-UJS">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="layericonblank.png" id="XTP-Zv-by5">
+                        <rect key="frame" x="10" y="5" width="50" height="50"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZyG-IR-W0a">
+                        <rect key="frame" x="68" y="20" width="49" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Raleway-Bold"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="ziZ-ls-5UK">
+                        <rect key="frame" x="149" y="0.0" width="31" height="59"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="layerDeleteIcon.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="deleteiconselected.png"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="2Sd-7e-fXc">
+                        <rect key="frame" x="118" y="-1" width="30" height="60"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="visiblelayericon.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="hiddenlayericon.png"/>
+                        <connections>
+                            <action selector="showButtonPressed:" destination="YWc-Ga-VTv" eventType="touchUpInside" id="VLb-yt-EFe"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bPy-As-oPg">
+                        <rect key="frame" x="125" y="18" width="17" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="hiddenlayericon.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="hidebuttonpresed:" destination="YWc-Ga-VTv" eventType="touchUpInside" id="tCt-Bl-uxM"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.20392156859999999" green="0.80784313730000001" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="_layerIconImageView" destination="XTP-Zv-by5" id="AtU-AJ-HCb"/>
+                <outlet property="_nameLabel" destination="ZyG-IR-W0a" id="E2x-Xk-FVl"/>
+                <outlet property="deleteLayerButton" destination="ziZ-ls-5UK" id="A0z-oA-9pR"/>
+                <outlet property="hidenEyeButton" destination="bPy-As-oPg" id="O3C-hx-01N"/>
+                <outlet property="showLayerButton" destination="2Sd-7e-fXc" id="lAB-Lk-nDT"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deleteiconselected.png" width="10" height="10"/>
+        <image name="hiddenlayericon.png" width="17" height="17"/>
+        <image name="layerDeleteIcon.png" width="10" height="10"/>
+        <image name="layericonblank.png" width="43" height="43"/>
+        <image name="visiblelayericon.png" width="17" height="17"/>
+    </resources>
+</document>

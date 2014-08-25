@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86C5E055-0808-4EAF-8EBB-31837647E4EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocialAmmo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>96667195-79B3-43D8-9497-9199912EFCBD</key>
+		<string>https://dev.mindfire.in/dlwa/svn/SocialAmmo/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SocialAmmo/SocialAmmo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>96667195-79B3-43D8-9497-9199912EFCBD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>96667195-79B3-43D8-9497-9199912EFCBD</key>
+		<string>https://dev.mindfire.in/dlwa/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://dev.mindfire.in/dlwa/svn/SocialAmmo/trunk/SocialAmmo/SocialAmmo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>96667195-79B3-43D8-9497-9199912EFCBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>SocialAmmo/branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>SocialAmmo/tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>SocialAmmo/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96667195-79B3-43D8-9497-9199912EFCBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Codebase</string>
+		</dict>
+	</array>
+</dict>
+</plist>

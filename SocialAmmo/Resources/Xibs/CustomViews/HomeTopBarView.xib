@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeTopBarView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="1" customClass="HomeTopBarView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="201" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PBQ-Pq-kFx">
+                    <rect key="frame" x="51" y="3" width="44" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="newsfeed.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="topBarButtonPressed:" destination="1" eventType="touchUpInside" id="zCk-z6-9fM"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo black.png" id="25G-el-0N5">
+                    <rect key="frame" x="117" y="1" width="87" height="41"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hOq-SM-MiS">
+                    <rect key="frame" x="228" y="7" width="35" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="beacon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="topBarButtonPressed:" destination="1" eventType="touchUpInside" id="s6k-JQ-xzh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="203" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="v1p-3r-jtO">
+                    <rect key="frame" x="279" y="6" width="32" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="notification.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="topBarButtonPressed:" destination="1" eventType="touchUpInside" id="CMU-7O-VKD"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_notification.png" id="P9z-1g-sMs">
+                    <rect key="frame" x="81" y="4" width="9" height="9"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beacon bar.png" id="vfe-RP-gqP">
+                    <rect key="frame" x="214" y="39" width="62" height="5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beacon bar.png" id="2XL-bz-mBu">
+                    <rect key="frame" x="42" y="39" width="62" height="5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beacon bar.png" id="dtq-3Z-Hje">
+                    <rect key="frame" x="268" y="39" width="50" height="5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_beaconButton" destination="hOq-SM-MiS" id="aRk-Lg-KrS"/>
+                <outlet property="_homeButton" destination="PBQ-Pq-kFx" id="QXn-QX-7zD"/>
+                <outlet property="_messageButton" destination="v1p-3r-jtO" id="ETD-qs-ZXb"/>
+                <outlet property="_selctedMessageBar" destination="dtq-3Z-Hje" id="56d-j4-6RH"/>
+                <outlet property="_selectedBeaconbar" destination="vfe-RP-gqP" id="Brw-J6-xrt"/>
+                <outlet property="_selectedSubmisionBar" destination="2XL-bz-mBu" id="7to-cz-51U"/>
+                <outlet property="_submissionNotifyImageView" destination="P9z-1g-sMs" id="12N-uB-HZV"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="beacon bar.png" width="62" height="5"/>
+        <image name="beacon.png" width="38" height="35"/>
+        <image name="ic_notification.png" width="9" height="10"/>
+        <image name="logo black.png" width="87" height="41"/>
+        <image name="newsfeed.png" width="35" height="34"/>
+        <image name="notification.png" width="25" height="23"/>
+    </resources>
+</document>

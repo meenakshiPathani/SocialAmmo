@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Home</string>
+		<key>ImageName</key>
+		<string>home.png</string>
+		<key>ViewControllerName</key>
+		<string>HomeViewController</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ranking</string>
+		<key>ImageName</key>
+		<string>ranking symbol.png</string>
+		<key>ViewControllerName</key>
+		<string>RankingViewController</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Payments</string>
+		<key>ImageName</key>
+		<string>coins symbol.png</string>
+		<key>ViewControllerName</key>
+		<string>PaymentsViewController</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Profile</string>
+		<key>ImageName</key>
+		<string>profile symbol.png</string>
+		<key>ViewControllerName</key>
+		<string>UserProfileViewController</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Terms and service</string>
+		<key>ImageName</key>
+		<string>terms and service symbol.png</string>
+		<key>ViewControllerName</key>
+		<string>TermsAndServiceViewController</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>logout</string>
+		<key>ImageName</key>
+		<string>logout symbol.png</string>
+		<key>ViewControllerName</key>
+		<string>LogoutViewController</string>
+	</dict>
+</array>
+</plist>

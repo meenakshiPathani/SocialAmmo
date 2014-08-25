@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Filter</string>
+		<key>Color</key>
+		<string>[0.972549, 0.031373, 0.027451, 1.000000]</string>
+		<key>Purchase</key>
+		<true/>
+		<key>Contents</key>
+		<array>
+			<string>Sepia</string>
+			<string>Fade</string>
+			<string>Chrome</string>
+			<string>Instant</string>
+			<string>Process</string>
+			<string>Transfer</string>
+			<string>Tonal</string>
+			<string>Noir</string>
+			<string>Mono</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Purchase</key>
+		<true/>
+		<key>Name</key>
+		<string>Texture</string>
+		<key>Color</key>
+		<string>[0.972549, 0.031373, 0.027451, 1.000000]</string>
+		<key>Contents</key>
+		<array>
+			<string>Textures_Diagonal Lines.png</string>
+			<string>Textures_Dots.png</string>
+			<string>Textures_Grid Diagonal.png</string>
+			<string>Textures_Grid.png</string>
+			<string>Textures_Hearts.png</string>
+			<string>Textures_Plus Signs.png</string>
+			<string>Textures_Repeating Circles.png</string>
+			<string>Textures_Repeating diamonds.png</string>
+			<string>Textures_Repeating Squares.png</string>
+			<string>Textures_Repeating Waves.png</string>
+			<string>Textures_Starfield.png</string>
+			<string>Textures_Straight Lines.png</string>
+			<string>Textures_Wavy.png</string>
+			<string>Textures_Zig Zag.png</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Purchase</key>
+		<true/>
+		<key>Name</key>
+		<string>Shapes</string>
+		<key>Color</key>
+		<string>[0.972549, 0.031373, 0.027451, 1.000000]</string>
+		<key>Contents</key>
+		<array>
+			<string>Circle</string>
+			<string>line</string>
+			<string>hexagon</string>
+			<string>Instant</string>
+			<string>Process</string>
+			<string>Transfer</string>
+			<string>Tonal</string>
+			<string>Noir</string>
+			<string>Mono</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Purchase</key>
+		<true/>
+		<key>Name</key>
+		<string>Frames</string>
+		<key>Color</key>
+		<string>[0.972549, 0.031373, 0.027451, 1.000000]</string>
+		<key>Contents</key>
+		<array>
+			<string>Frames_Arrows.png</string>
+			<string>Frames_Brushed Heavy.png</string>
+			<string>Frames_Brushed Thin.png</string>
+			<string>Frames_Budding Corners.png</string>
+			<string>Frames_Crosshatch.png</string>
+			<string>Frames_Cut Corners.png</string>
+			<string>Frames_Dashed.png</string>
+			<string>Frames_Dotted.png</string>
+			<string>Frames_Double Line Frame.png</string>
+			<string>Frames_Grunge.png</string>
+			<string>Frames_Double Line Shaded.png</string>
+			<string>Frames_Intersecting.png</string>
+			<string>Frames_Photo Holder.png</string>
+		</array>
+	</dict>
+</array>
+</plist>
