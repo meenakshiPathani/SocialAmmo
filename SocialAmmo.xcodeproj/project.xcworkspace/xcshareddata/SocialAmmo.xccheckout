@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>86C5E055-0808-4EAF-8EBB-31837647E4EE</string>
+	<string>D336573C-0A36-47BD-9ACE-DA1E7C8AD270</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SocialAmmo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>31EEC944-A84D-45ED-B1F6-D8B131E02D59</key>
+		<string>https://github.com/meenakshi-mindfire/SocialAmmo.git</string>
 		<key>96667195-79B3-43D8-9497-9199912EFCBD</key>
 		<string>https://dev.mindfire.in/dlwa/svn/SocialAmmo/trunk</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>SocialAmmo/SocialAmmo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>31EEC944-A84D-45ED-B1F6-D8B131E02D59</key>
+		<string>../..</string>
 		<key>96667195-79B3-43D8-9497-9199912EFCBD</key>
 		<string>../../..</string>
 	</dict>
@@ -26,7 +30,7 @@
 		<string>https://dev.mindfire.in/dlwa/svn</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://dev.mindfire.in/dlwa/svn/SocialAmmo/trunk/SocialAmmo/SocialAmmo.xcodeproj</string>
+	<string>https://github.com/meenakshi-mindfire/SocialAmmo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -46,6 +50,14 @@
 			<string>96667195-79B3-43D8-9497-9199912EFCBD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Codebase</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31EEC944-A84D-45ED-B1F6-D8B131E02D59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SocialAmmo</string>
 		</dict>
 	</array>
 </dict>
