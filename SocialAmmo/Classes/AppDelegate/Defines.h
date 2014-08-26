@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 The Social Ammo. All rights reserved.
 //
 
-
 #define RADIANS(degrees) ((degrees * M_PI) / 180.0)
 
 #define kImageFileSeparator		@"_"
